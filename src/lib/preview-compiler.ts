@@ -5,12 +5,20 @@ interface CompileResult {
   error: string | null
 }
 
+const AUTO_IMPORT = `import React, { useState, useEffect, useRef, useMemo, useCallback, useContext, useReducer, memo, createContext, Fragment } from 'react'\n`
+
+function ensureReactImport(code: string): string {
+  if (/from\s+['"]react['"]/.test(code)) return code
+  return AUTO_IMPORT + code
+}
+
 export async function compileComponent(code: string, ext: string): Promise<CompileResult> {
   try {
+    const codeWithImport = ensureReactImport(code)
     const res = await fetch('/__api/transform', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ code, ext }),
+      body: JSON.stringify({ code: codeWithImport, ext }),
     })
     const data = await res.json()
 

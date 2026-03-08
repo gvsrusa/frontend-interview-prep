@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
+
 export default function Counter() {
   // TODO: Create a state variable to hold the counter value (start at 0)
 

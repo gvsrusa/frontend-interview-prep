@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
+
 export default function ProgressBar({ value, label }) {
   const clamped = Math.min(100, Math.max(0, value));
   return <div>

@@ -1,3 +1,5 @@
+import React, { useState, useEffect, useRef, useCallback, useMemo } from 'react'
+
 export default function Breadcrumbs({ items, separator = '/' }) {
   return (
     <nav aria-label="breadcrumb">
