@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "BFS Tree Traversal",
+  "difficulty": "easy",
+  "category": "trees-graphs",
+  "language": "ts",
+  "hints": [
+    "Use a queue (array with shift/push) to process nodes level by level",
+    "For each level, process all nodes currently in the queue before moving to the next level",
+    "Enqueue left child first, then right child for left-to-right order"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

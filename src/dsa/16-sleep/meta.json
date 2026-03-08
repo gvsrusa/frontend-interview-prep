@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Sleep",
+  "difficulty": "easy",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "Return a new Promise that resolves after the specified delay",
+    "Use setTimeout inside the Promise constructor",
+    "The resolved value can be undefined or an optional value parameter"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

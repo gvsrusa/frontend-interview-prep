@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Best Time to Buy and Sell Stock",
+  "difficulty": "easy",
+  "category": "strings-arrays",
+  "language": "ts",
+  "hints": [
+    "Track the minimum price seen so far as you iterate through the array",
+    "At each step, calculate the profit if you sold at the current price",
+    "Keep track of the maximum profit seen so far"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

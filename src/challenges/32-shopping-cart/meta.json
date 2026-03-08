@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Shopping Cart",
+  "difficulty": "medium",
+  "category": "state-management",
+  "language": "js",
+  "hints": [
+    "Use React Context to share cart state across components",
+    "Each cart item should track product info and quantity",
+    "Compute the total price by reducing over cart items (price × quantity)"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

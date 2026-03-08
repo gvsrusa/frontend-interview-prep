@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Maximum Subarray",
+  "difficulty": "medium",
+  "category": "strings-arrays",
+  "language": "js",
+  "hints": [
+    "Use Kadane's Algorithm: track the current subarray sum and the maximum sum seen",
+    "At each element, decide whether to extend the current subarray or start a new one",
+    "currentSum = Math.max(nums[i], currentSum + nums[i])"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

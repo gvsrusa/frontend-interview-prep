@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Binary Search",
+  "difficulty": "easy",
+  "category": "sorting-searching",
+  "language": "ts",
+  "hints": [
+    "Maintain two pointers (lo, hi) that narrow the search range by half each step",
+    "Compare the target with the middle element to decide which half to search",
+    "Be careful with the mid calculation — use (lo + hi) >>> 1 to avoid overflow",
+    "Return -1 if lo exceeds hi (target not found)"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

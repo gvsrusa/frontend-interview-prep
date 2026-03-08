@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Throttle",
+  "difficulty": "medium",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "Track the last time the function was executed and use setTimeout for trailing calls",
+    "Leading option: execute immediately on the first call, then ignore until the interval passes",
+    "Trailing option: schedule a final call at the end of the throttle period"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

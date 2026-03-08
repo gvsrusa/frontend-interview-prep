@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Longest Increasing Subsequence",
+  "difficulty": "medium",
+  "category": "dynamic-programming",
+  "language": "js",
+  "hints": [
+    "dp[i] = length of the longest increasing subsequence ending at index i",
+    "For each i, check all j < i: if nums[j] < nums[i], dp[i] = max(dp[i], dp[j] + 1)",
+    "The O(n²) DP is straightforward — can you do better?",
+    "An O(n log n) approach uses a 'tails' array with binary search to maintain the smallest possible tail for each subsequence length"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

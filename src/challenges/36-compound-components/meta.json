@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Compound Components",
+  "difficulty": "hard",
+  "category": "state-management",
+  "language": "js",
+  "hints": [
+    "Use React Context to share state between parent and child components",
+    "Attach child components as static properties on the parent (e.g., Tabs.Tab, Tabs.Panel)",
+    "The parent manages which tab is active; children read from context"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

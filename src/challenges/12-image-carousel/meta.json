@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Image Carousel",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Track the current slide index in state; wrap around using modulo",
+    "For auto-play, use useEffect with setInterval and clear it on unmount or when paused",
+    "Render pagination dots — one per image — highlighting the active one"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

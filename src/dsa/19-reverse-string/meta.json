@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Reverse String",
+  "difficulty": "easy",
+  "category": "strings-arrays",
+  "language": "ts",
+  "hints": [
+    "Use two pointers: one at the start and one at the end of the array",
+    "Swap the characters at both pointers, then move them toward each other",
+    "Stop when the pointers meet in the middle"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

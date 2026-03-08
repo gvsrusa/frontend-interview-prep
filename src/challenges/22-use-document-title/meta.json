@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useDocumentTitle Hook",
+  "difficulty": "easy",
+  "category": "hooks",
+  "language": "js",
+  "hints": [
+    "document.title is the browser API to set the page title",
+    "Use useEffect to update the title when the value changes",
+    "Consider restoring the original title on unmount"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

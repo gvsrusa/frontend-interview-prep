@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Event Emitter",
+  "difficulty": "medium",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "Use a Map or object to store event names mapped to arrays of listener functions",
+    "For 'once', wrap the listener so it removes itself after the first call",
+    "off should remove a specific listener; emit should call all listeners for an event"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

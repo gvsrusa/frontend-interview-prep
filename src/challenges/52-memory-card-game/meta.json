@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Memory Card Game",
+  "difficulty": "medium",
+  "category": "games",
+  "language": "js",
+  "hints": [
+    "Create pairs of cards with matching symbols, shuffle them, and track which are flipped or matched",
+    "When two cards are flipped, compare them after a brief delay — match them or flip both back",
+    "Use a 'disabled' flag to prevent clicking while two unmatched cards are being shown"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

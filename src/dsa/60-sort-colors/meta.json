@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Sort Colors",
+  "difficulty": "medium",
+  "category": "sorting-searching",
+  "language": "js",
+  "hints": [
+    "The array only contains 0s, 1s, and 2s — you don't need a general sorting algorithm",
+    "Use three pointers: lo (boundary of 0s), mid (current), hi (boundary of 2s)",
+    "This is the Dutch National Flag problem — partition into three groups in one pass",
+    "Swap 0s to the front (lo), 2s to the back (hi), and skip 1s"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

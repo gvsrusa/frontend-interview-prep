@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Transfer List",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Maintain two arrays in state: leftItems and rightItems",
+    "Track selected items (checked checkboxes) separately from the list membership",
+    "Transfer buttons move all checked items from one side to the other, then clear selections"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

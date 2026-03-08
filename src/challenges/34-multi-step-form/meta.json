@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Multi-Step Form",
+  "difficulty": "medium",
+  "category": "state-management",
+  "language": "js",
+  "hints": [
+    "Track the current step index and form data in state",
+    "Validate the current step before allowing Next",
+    "Show a summary of all entered data on the final step before submission"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

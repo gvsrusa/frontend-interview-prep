@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Infinite Scroll",
+  "difficulty": "hard",
+  "category": "performance",
+  "language": "ts",
+  "hints": [
+    "Use IntersectionObserver to detect when a sentinel element at the bottom enters the viewport",
+    "Track current page, loading state, and whether there are more pages",
+    "Clean up the observer in useEffect's return to avoid memory leaks"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

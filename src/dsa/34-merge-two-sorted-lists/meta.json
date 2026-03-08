@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Merge Two Sorted Lists",
+  "difficulty": "easy",
+  "category": "linked-lists-stacks",
+  "language": "js",
+  "hints": [
+    "Use a dummy head node to simplify edge cases",
+    "Compare the current nodes of both lists and append the smaller one",
+    "After one list is exhausted, append the remaining nodes of the other"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

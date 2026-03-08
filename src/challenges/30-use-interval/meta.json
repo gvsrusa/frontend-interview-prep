@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useInterval Hook",
+  "difficulty": "medium",
+  "category": "hooks",
+  "language": "js",
+  "hints": [
+    "Store the callback in a ref so the interval always calls the latest version",
+    "Pass null as the delay to pause the interval",
+    "Clear and re-create the interval when the delay changes"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

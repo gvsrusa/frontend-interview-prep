@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Traffic Light",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Model this as a state machine with three states: red → green → yellow → red",
+    "Use useEffect with setTimeout to transition after each light's configured duration",
+    "Accept a config prop for the duration (in ms) of each light color"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

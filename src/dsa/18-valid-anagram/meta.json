@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Valid Anagram",
+  "difficulty": "easy",
+  "category": "strings-arrays",
+  "language": "js",
+  "hints": [
+    "Two strings are anagrams if they have the same character frequencies",
+    "Use a hash map to count character occurrences in the first string, then decrement for the second",
+    "If strings have different lengths, they cannot be anagrams"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

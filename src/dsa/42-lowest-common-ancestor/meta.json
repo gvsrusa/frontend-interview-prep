@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Lowest Common Ancestor",
+  "difficulty": "medium",
+  "category": "trees-graphs",
+  "language": "js",
+  "hints": [
+    "If the current node is p or q, it could be the LCA",
+    "Recursively search left and right subtrees",
+    "If both left and right searches return non-null, the current node is the LCA"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

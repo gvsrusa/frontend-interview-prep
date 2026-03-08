@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Lazy Loaded Routes",
+  "difficulty": "medium",
+  "category": "performance",
+  "language": "ts",
+  "hints": [
+    "Use React.lazy(() => import('./Component')) to dynamically import route components",
+    "Wrap lazy components in <Suspense fallback={<Loading />}> to show a fallback while loading",
+    "You can simulate routes with simple state-based navigation if react-router isn't available"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

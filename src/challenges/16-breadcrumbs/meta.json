@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Breadcrumbs",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Accept an array of { label, href } items; render them separated by a delimiter",
+    "The last item is the current page — render it as text, not a link",
+    "Use a <nav> with aria-label='breadcrumb' and an <ol> for semantic markup"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

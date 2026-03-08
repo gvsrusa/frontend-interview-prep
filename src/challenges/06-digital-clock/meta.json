@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Digital Clock",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Use useEffect with setInterval to update the time every second",
+    "Remember to return a cleanup function that calls clearInterval",
+    "For 12h format, use modulo 12 and add AM/PM indicator"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

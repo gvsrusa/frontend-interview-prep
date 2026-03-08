@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Merge Sort",
+  "difficulty": "medium",
+  "category": "sorting-searching",
+  "language": "js",
+  "hints": [
+    "Divide the array in half recursively until each piece has 0 or 1 elements",
+    "Merge two sorted halves by comparing elements from each and building the result in order",
+    "The merge step is where the actual sorting happens — use two pointers",
+    "Merge sort is stable and always O(n log n), but requires O(n) extra space"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

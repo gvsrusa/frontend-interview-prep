@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Coin Change",
+  "difficulty": "medium",
+  "category": "dynamic-programming",
+  "language": "ts",
+  "hints": [
+    "Think about the minimum coins needed for every amount from 0 to the target",
+    "For each amount, try every coin denomination and take the minimum",
+    "dp[i] = min(dp[i], dp[i - coin] + 1) for each coin",
+    "Initialize dp array with Infinity; dp[0] = 0 since zero coins make amount 0"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

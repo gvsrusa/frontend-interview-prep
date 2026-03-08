@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Flatten Array",
+  "difficulty": "easy",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "Use recursion to handle each level of nesting",
+    "Decrement the depth parameter on each recursive call; stop flattening when depth reaches 0",
+    "Use Array.isArray() to check if an element is an array before recursing"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

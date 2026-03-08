@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Multi-Select Chips",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Track selected values as an array in state; toggle on click",
+    "Render selected items as chip tags with a remove (×) button",
+    "Filter the dropdown options to exclude already-selected items"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

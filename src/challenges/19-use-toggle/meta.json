@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useToggle Hook",
+  "difficulty": "easy",
+  "category": "hooks",
+  "language": "ts",
+  "hints": [
+    "useState can hold a boolean value",
+    "The toggle function should flip the current value using a callback form of setState",
+    "Consider accepting an optional initial value parameter"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

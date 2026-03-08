@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Dropdown Select",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Use a button to toggle open/close, and render the options list absolutely positioned below it",
+    "Filter options by search input using .filter() and .toLowerCase() for case-insensitive matching",
+    "Track highlighted index for keyboard navigation — ArrowUp/Down to move, Enter to select, Escape to close"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

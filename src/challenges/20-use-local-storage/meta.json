@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useLocalStorage Hook",
+  "difficulty": "easy",
+  "category": "hooks",
+  "language": "js",
+  "hints": [
+    "Use JSON.parse and JSON.stringify to serialize/deserialize values",
+    "Initialize state lazily by reading from localStorage in a useState callback",
+    "Sync to localStorage inside a useEffect or directly in the setter"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

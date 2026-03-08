@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Progress Bar",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Use a container div with a nested div whose width is set as a percentage",
+    "Clamp the value between 0 and 100 to prevent overflow",
+    "Use role='progressbar' with aria-valuenow, aria-valuemin, and aria-valuemax"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Promise.race",
+  "difficulty": "easy",
+  "category": "js-utilities",
+  "language": "ts",
+  "hints": [
+    "Return a new Promise that settles as soon as the first input promise settles",
+    "Iterate through all promises and attach .then and .catch to each",
+    "The first promise to settle (resolve or reject) determines the outcome"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

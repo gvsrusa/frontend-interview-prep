@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Serialize and Deserialize Binary Tree",
+  "difficulty": "hard",
+  "category": "trees-graphs",
+  "language": "js",
+  "hints": [
+    "Use pre-order traversal for serialization, marking null nodes with a sentinel like 'null'",
+    "Join node values with a delimiter like comma",
+    "For deserialization, use a queue/index to consume tokens in the same pre-order sequence"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

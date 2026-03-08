@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Search in Rotated Sorted Array",
+  "difficulty": "medium",
+  "category": "sorting-searching",
+  "language": "js",
+  "hints": [
+    "The array was sorted and then rotated — one half is always sorted",
+    "Use binary search: determine which half is sorted by comparing nums[lo] with nums[mid]",
+    "If the target lies within the sorted half, search there; otherwise search the other half",
+    "Handle edge cases where lo, mid, or hi point to the same element"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

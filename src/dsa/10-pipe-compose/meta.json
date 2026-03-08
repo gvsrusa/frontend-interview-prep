@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Pipe & Compose",
+  "difficulty": "easy",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "pipe applies functions left-to-right, compose applies right-to-left",
+    "Use reduce to chain function calls, passing each result to the next function",
+    "compose is just pipe with the functions reversed"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

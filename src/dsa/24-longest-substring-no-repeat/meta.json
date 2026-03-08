@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Longest Substring Without Repeating Characters",
+  "difficulty": "medium",
+  "category": "strings-arrays",
+  "language": "js",
+  "hints": [
+    "Use a sliding window with two pointers (left and right)",
+    "Use a Set or Map to track characters in the current window",
+    "When a duplicate is found, shrink the window from the left until the duplicate is removed"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

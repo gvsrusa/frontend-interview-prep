@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Invert Binary Tree",
+  "difficulty": "easy",
+  "category": "trees-graphs",
+  "language": "js",
+  "hints": [
+    "Swap the left and right children of each node",
+    "Recursively invert the left and right subtrees",
+    "The base case is a null node — just return null"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

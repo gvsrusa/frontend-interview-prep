@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Implement Stack",
+  "difficulty": "easy",
+  "category": "linked-lists-stacks",
+  "language": "ts",
+  "hints": [
+    "Use an array as the underlying storage for the stack",
+    "push adds to the end, pop removes from the end — both O(1) with arrays",
+    "peek returns the last element without removing it"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

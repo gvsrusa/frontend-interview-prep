@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Climbing Stairs",
+  "difficulty": "easy",
+  "category": "dynamic-programming",
+  "language": "ts",
+  "hints": [
+    "To reach step n, you could have come from step n-1 or step n-2",
+    "This recurrence is identical to the Fibonacci sequence",
+    "Use dynamic programming to avoid recomputing overlapping subproblems",
+    "You only need to track the last two values — O(1) space is possible"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

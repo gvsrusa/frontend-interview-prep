@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Validate Binary Search Tree",
+  "difficulty": "medium",
+  "category": "trees-graphs",
+  "language": "ts",
+  "hints": [
+    "A BST requires every node's value to be within a valid range (min, max)",
+    "Pass the valid range down through recursion — left children narrow the max, right children narrow the min",
+    "Use -Infinity and Infinity as initial bounds"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

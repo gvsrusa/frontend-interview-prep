@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Accordion",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Track which section index is currently expanded in state",
+    "Clicking an already-open section should close it (toggle behavior)",
+    "Use aria-expanded and role attributes for accessibility"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Todo App",
+  "difficulty": "medium",
+  "category": "state-management",
+  "language": "ts",
+  "hints": [
+    "Use an array of objects with id, text, and completed fields",
+    "Filter the list based on the active filter (all/active/completed)",
+    "Use localStorage in a useEffect to persist todos across page reloads"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Memoize",
+  "difficulty": "medium",
+  "category": "js-utilities",
+  "language": "ts",
+  "hints": [
+    "Use a Map or object to store previously computed results",
+    "Serialize the arguments into a cache key (JSON.stringify works for simple cases)",
+    "Consider how to handle multiple arguments and object arguments"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

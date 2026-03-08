@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Fibonacci Number",
+  "difficulty": "easy",
+  "category": "dynamic-programming",
+  "language": "js",
+  "hints": [
+    "The naive recursive approach has exponential time — many subproblems are recomputed",
+    "Store already-computed results in a cache (memoization) to avoid redundant work",
+    "Bottom-up iteration needs only two variables to track the previous pair",
+    "Both memoized and iterative approaches achieve O(n) time"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

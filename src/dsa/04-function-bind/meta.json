@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Function Bind",
+  "difficulty": "medium",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "Return a new function that calls the original with the correct `this` context using apply or call",
+    "Support partial application by capturing arguments passed to myBind and prepending them",
+    "Handle the case where the bound function is used as a constructor with `new`"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

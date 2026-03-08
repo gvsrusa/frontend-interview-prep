@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Counter",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Use useState to track the counter value",
+    "Each button needs its own onClick handler that updates state",
+    "Reset simply sets the counter back to 0"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

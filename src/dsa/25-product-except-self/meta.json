@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Product of Array Except Self",
+  "difficulty": "medium",
+  "category": "strings-arrays",
+  "language": "ts",
+  "hints": [
+    "First pass: build a prefix product array (product of all elements to the left)",
+    "Second pass: traverse from right, maintaining a running suffix product",
+    "Multiply prefix and suffix products to get the result without division"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

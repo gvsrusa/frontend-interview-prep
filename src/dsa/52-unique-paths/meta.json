@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Unique Paths",
+  "difficulty": "medium",
+  "category": "dynamic-programming",
+  "language": "js",
+  "hints": [
+    "From any cell you can only move right or down — the path count is the sum of paths from the cell above and the cell to the left",
+    "The first row and first column each have exactly 1 path",
+    "Build a 2D table: dp[i][j] = dp[i-1][j] + dp[i][j-1]",
+    "Space optimization: use a single row and update it left-to-right"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,9 @@
+{
+  "type": "dsa",
+  "title": "Problem Title",
+  "difficulty": "easy",
+  "category": "strings-arrays",
+  "language": "js",
+  "hints": [],
+  "timeLimit": 30
+}

@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Valid Palindrome",
+  "difficulty": "easy",
+  "category": "strings-arrays",
+  "language": "js",
+  "hints": [
+    "Convert to lowercase and remove non-alphanumeric characters first, or handle inline",
+    "Use two pointers from both ends, skipping non-alphanumeric characters",
+    "Compare characters at both pointers, moving inward"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

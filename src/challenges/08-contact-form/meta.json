@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Contact Form",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Use controlled inputs with useState for each field",
+    "Validate on submit — check for required fields, valid email format, and minimum message length",
+    "Show inline error messages next to invalid fields"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

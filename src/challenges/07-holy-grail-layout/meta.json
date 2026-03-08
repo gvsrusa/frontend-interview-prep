@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Holy Grail Layout",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Use CSS Grid or Flexbox for the overall page layout",
+    "The middle row needs three columns — nav, main content, and aside",
+    "Set min-height: 100vh on the container so footer sticks to the bottom"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

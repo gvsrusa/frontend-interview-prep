@@ -1,0 +1,9 @@
+{
+  "type": "react",
+  "title": "Challenge Title",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "ts",
+  "hints": [],
+  "timeLimit": 30
+}

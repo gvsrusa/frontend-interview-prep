@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Popover",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Toggle visibility on click of the trigger element (not hover like a tooltip)",
+    "Listen for clicks outside the popover container to dismiss it",
+    "Use a ref on the container and check if the click target is inside it"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

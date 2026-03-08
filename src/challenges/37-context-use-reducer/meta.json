@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Context + useReducer",
+  "difficulty": "medium",
+  "category": "state-management",
+  "language": "ts",
+  "hints": [
+    "Create separate contexts for theme and auth to avoid unnecessary re-renders",
+    "useReducer provides a dispatch function that handles typed action objects",
+    "Export custom hooks (useTheme, useAuth) that wrap useContext with error checking"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

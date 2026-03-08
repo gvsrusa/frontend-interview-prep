@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Autocomplete",
+  "difficulty": "hard",
+  "category": "performance",
+  "language": "js",
+  "hints": [
+    "Use setTimeout/clearTimeout to debounce the search input before querying",
+    "Cache previous search results in a useRef map to avoid redundant API calls",
+    "Track highlighted index with state and handle ArrowUp, ArrowDown, Enter keys via onKeyDown"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

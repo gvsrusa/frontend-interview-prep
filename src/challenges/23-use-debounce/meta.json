@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useDebounce Hook",
+  "difficulty": "medium",
+  "category": "hooks",
+  "language": "ts",
+  "hints": [
+    "Use setTimeout and clearTimeout to delay the value update",
+    "Clean up the timeout in the useEffect cleanup function",
+    "The debounced value updates only after the delay has passed without new changes"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

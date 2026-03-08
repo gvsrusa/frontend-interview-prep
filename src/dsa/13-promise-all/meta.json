@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Promise.all",
+  "difficulty": "medium",
+  "category": "js-utilities",
+  "language": "ts",
+  "hints": [
+    "Return a new Promise that resolves when all input promises resolve",
+    "Track resolved values in an array, maintaining the original order (not resolution order)",
+    "Reject immediately if any promise rejects"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Course Schedule",
+  "difficulty": "medium",
+  "category": "trees-graphs",
+  "language": "ts",
+  "hints": [
+    "Model the problem as a directed graph where each prerequisite pair is an edge",
+    "A valid schedule exists only if the graph has no cycles — think about cycle detection",
+    "Use topological sort with BFS (Kahn's algorithm) or DFS with coloring to detect cycles",
+    "Track in-degrees for BFS: courses with 0 in-degree can be taken immediately"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

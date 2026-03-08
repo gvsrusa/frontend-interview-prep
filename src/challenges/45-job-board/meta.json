@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Job Board",
+  "difficulty": "medium",
+  "category": "api-integration",
+  "language": "ts",
+  "hints": [
+    "Create a mock API function that returns a page of job postings with a total count",
+    "Track page number in state and fetch data when it changes using useEffect",
+    "Disable Previous/Next buttons at the boundaries (first page, last page)"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

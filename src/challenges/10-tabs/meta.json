@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Tabs",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Track the active tab index in state and only render that tab's content panel",
+    "Use role='tablist', role='tab', and role='tabpanel' for accessible tab navigation",
+    "Set aria-selected on the active tab button"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

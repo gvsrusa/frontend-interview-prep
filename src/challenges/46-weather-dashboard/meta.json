@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Weather Dashboard",
+  "difficulty": "medium",
+  "category": "api-integration",
+  "language": "js",
+  "hints": [
+    "Use a mock API object that maps city names to weather data for instant lookup",
+    "Track loading, error, and data states separately for clean UI transitions",
+    "Store recent searches in an array (limit to last 5) and allow clicking to re-search"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

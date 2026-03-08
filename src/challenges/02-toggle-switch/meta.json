@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Toggle Switch",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Use useState for uncontrolled mode; accept value/onChange props for controlled mode",
+    "Check if value prop is provided to decide controlled vs uncontrolled",
+    "Use a <button> with role='switch' and aria-checked for accessibility"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

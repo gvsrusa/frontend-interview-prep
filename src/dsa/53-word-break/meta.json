@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Word Break",
+  "difficulty": "medium",
+  "category": "dynamic-programming",
+  "language": "ts",
+  "hints": [
+    "Think of this as: can you partition the string into valid dictionary words?",
+    "dp[i] represents whether s[0..i-1] can be segmented",
+    "For each position i, check all substrings s[j..i] against the dictionary",
+    "Using a Set for the dictionary gives O(1) lookups — iterate j from 0 to i"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

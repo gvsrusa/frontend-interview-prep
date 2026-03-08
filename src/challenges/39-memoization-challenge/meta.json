@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Memoization Challenge",
+  "difficulty": "medium",
+  "category": "performance",
+  "language": "ts",
+  "hints": [
+    "Wrap expensive child components with React.memo to prevent unnecessary re-renders",
+    "Use useMemo for computed values and useCallback for event handlers passed as props",
+    "Profile with React DevTools to identify which components re-render unnecessarily"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

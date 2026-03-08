@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Two Sum",
+  "difficulty": "easy",
+  "category": "strings-arrays",
+  "language": "ts",
+  "hints": [
+    "A brute-force O(n²) approach checks every pair, but you can do better",
+    "Use a hash map to store values you've seen and their indices",
+    "For each number, check if (target - number) exists in the map"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

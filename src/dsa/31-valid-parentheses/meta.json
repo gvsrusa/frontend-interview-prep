@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Valid Parentheses",
+  "difficulty": "easy",
+  "category": "linked-lists-stacks",
+  "language": "ts",
+  "hints": [
+    "Use a stack to track opening brackets",
+    "When you encounter a closing bracket, check if the top of the stack is its matching opener",
+    "At the end, the stack should be empty for valid input"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

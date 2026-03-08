@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Reverse Linked List",
+  "difficulty": "easy",
+  "category": "linked-lists-stacks",
+  "language": "ts",
+  "hints": [
+    "Use three pointers: prev, current, and next",
+    "At each step, reverse the current node's next pointer to point to prev",
+    "Move all three pointers one step forward and repeat"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

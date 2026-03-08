@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "File Upload",
+  "difficulty": "hard",
+  "category": "api-integration",
+  "language": "ts",
+  "hints": [
+    "Use onDragOver (with preventDefault) and onDrop events on a drop zone div",
+    "Simulate upload progress with setInterval incrementing from 0 to 100",
+    "Track each file's upload status (pending, uploading, complete, cancelled) in state"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

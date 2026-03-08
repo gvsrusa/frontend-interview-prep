@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Wikipedia Search",
+  "difficulty": "medium",
+  "category": "api-integration",
+  "language": "ts",
+  "hints": [
+    "Debounce the search input so the API is only called after the user stops typing (300ms)",
+    "Use useEffect with a cleanup that clears the timeout to implement debouncing",
+    "Cancel stale requests by tracking a cancelled flag in the useEffect cleanup"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

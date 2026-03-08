@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "Find K Largest Elements",
+  "difficulty": "medium",
+  "category": "sorting-searching",
+  "language": "ts",
+  "hints": [
+    "Sorting gives O(n log n) — can you do better?",
+    "A min-heap of size k lets you stream through the array in O(n log k)",
+    "Quickselect (partition-based) achieves O(n) average — similar to quicksort but only recurse into one half",
+    "After finding the kth largest element, collect all elements >= it"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

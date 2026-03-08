@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "LRU Cache",
+  "difficulty": "hard",
+  "category": "linked-lists-stacks",
+  "language": "js",
+  "hints": [
+    "Combine a Map (hash map) with a doubly linked list for O(1) access and ordering",
+    "On get: move the accessed node to the head (most recently used)",
+    "On put: if capacity is exceeded, remove the tail node (least recently used)"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "usePrevious Hook",
+  "difficulty": "easy",
+  "category": "hooks",
+  "language": "ts",
+  "hints": [
+    "useRef persists values across renders without causing re-renders",
+    "useEffect runs after render, so the ref still holds the old value during render",
+    "Return the ref's current value before updating it in the effect"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

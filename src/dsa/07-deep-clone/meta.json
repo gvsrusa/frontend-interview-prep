@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Deep Clone",
+  "difficulty": "medium",
+  "category": "js-utilities",
+  "language": "ts",
+  "hints": [
+    "Use recursion to handle nested objects and arrays",
+    "Check for special types: Date, Map, Set, RegExp and clone them accordingly",
+    "Use a WeakMap to track visited objects and handle circular references"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

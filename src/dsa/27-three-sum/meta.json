@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Three Sum",
+  "difficulty": "medium",
+  "category": "strings-arrays",
+  "language": "ts",
+  "hints": [
+    "Sort the array first to enable the two-pointer approach",
+    "Fix one number and use two pointers on the remaining sorted portion",
+    "Skip duplicate values to avoid duplicate triplets in the result"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

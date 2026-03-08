@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Polling Dashboard",
+  "difficulty": "hard",
+  "category": "api-integration",
+  "language": "js",
+  "hints": [
+    "Use setInterval inside useEffect and clear it on cleanup to poll at the given interval",
+    "Store the interval ID in a ref so start/stop controls can clear it",
+    "Allow the user to change the polling interval and restart polling with the new value"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

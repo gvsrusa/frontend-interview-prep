@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Controlled vs Uncontrolled",
+  "difficulty": "easy",
+  "category": "state-management",
+  "language": "ts",
+  "hints": [
+    "Controlled: value and onChange are managed by React state",
+    "Uncontrolled: use useRef and defaultValue, read value on submit",
+    "Both approaches should produce the same result on form submission"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

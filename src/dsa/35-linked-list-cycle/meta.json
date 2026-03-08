@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Linked List Cycle",
+  "difficulty": "easy",
+  "category": "linked-lists-stacks",
+  "language": "ts",
+  "hints": [
+    "Use Floyd's Tortoise and Hare algorithm with two pointers",
+    "The slow pointer moves one step, the fast pointer moves two steps",
+    "If there is a cycle, the fast pointer will eventually meet the slow pointer"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

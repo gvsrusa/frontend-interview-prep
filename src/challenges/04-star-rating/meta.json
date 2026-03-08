@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Star Rating",
+  "difficulty": "easy",
+  "category": "components",
+  "language": "js",
+  "hints": [
+    "Track both the selected rating and the hovered star index in separate state variables",
+    "On mouse enter of a star, set the hover state; on mouse leave, clear it",
+    "Display filled stars up to the hovered index (or selected if not hovering)"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

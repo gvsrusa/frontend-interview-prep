@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Modal Dialog",
+  "difficulty": "medium",
+  "category": "components",
+  "language": "ts",
+  "hints": [
+    "Use createPortal to render the modal outside the normal DOM hierarchy",
+    "Trap focus within the modal by listening for Tab key and cycling through focusable elements",
+    "Listen for the Escape key to close the modal and clean up the event listener"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

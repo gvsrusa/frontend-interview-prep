@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Implement Queue",
+  "difficulty": "easy",
+  "category": "linked-lists-stacks",
+  "language": "js",
+  "hints": [
+    "Use an object/map with head and tail indices for O(1) enqueue and dequeue",
+    "Array.shift() is O(n) — avoid it for optimal performance",
+    "Track a head pointer that increments on dequeue to avoid shifting elements"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

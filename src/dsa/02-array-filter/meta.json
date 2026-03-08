@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Array Filter",
+  "difficulty": "easy",
+  "category": "js-utilities",
+  "language": "js",
+  "hints": [
+    "Iterate through the array and test each element with the callback",
+    "Only push elements to the result when the callback returns a truthy value",
+    "Remember to pass (element, index, array) to the callback"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

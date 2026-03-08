@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Wordle Clone",
+  "difficulty": "hard",
+  "category": "games",
+  "language": "js",
+  "hints": [
+    "Store guesses as an array of strings and the target word separately; compare letter-by-letter for feedback",
+    "For each letter: green if correct position, yellow if in word but wrong position, gray if not in word",
+    "Handle duplicate letters carefully — only mark as yellow if that letter hasn't already been matched as green"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

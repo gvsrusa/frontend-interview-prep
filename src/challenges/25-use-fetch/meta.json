@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useFetch Hook",
+  "difficulty": "medium",
+  "category": "hooks",
+  "language": "ts",
+  "hints": [
+    "Use AbortController to cancel pending requests on unmount or URL change",
+    "Track loading, error, and data states separately or with useReducer",
+    "A useRef-based cache (Map) can store previous responses by URL"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

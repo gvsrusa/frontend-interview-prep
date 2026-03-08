@@ -1,0 +1,17 @@
+{
+  "type": "dsa",
+  "title": "Array Map",
+  "difficulty": "easy",
+  "category": "js-utilities",
+  "language": "ts",
+  "hints": [
+    "Iterate through the array and apply the callback to each element",
+    "Remember that Array.prototype.map passes (element, index, array) to the callback",
+    "Use the optional thisArg parameter as the context for the callback"
+  ],
+  "timeLimit": 15,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

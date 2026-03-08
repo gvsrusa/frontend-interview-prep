@@ -1,0 +1,18 @@
+{
+  "type": "dsa",
+  "title": "0/1 Knapsack",
+  "difficulty": "medium",
+  "category": "dynamic-programming",
+  "language": "ts",
+  "hints": [
+    "For each item you have two choices: include it or skip it",
+    "Define dp[i][w] as the max value using the first i items with capacity w",
+    "If item i's weight exceeds w, skip it; otherwise take the max of including vs skipping",
+    "Space can be optimized to a 1D array by iterating capacity in reverse"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

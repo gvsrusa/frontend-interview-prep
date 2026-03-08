@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useMediaQuery Hook",
+  "difficulty": "medium",
+  "category": "hooks",
+  "language": "ts",
+  "hints": [
+    "window.matchMedia() creates a MediaQueryList that can be observed",
+    "Use the 'change' event on the MediaQueryList to track updates",
+    "Initialize state with the current matches property"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Optimistic Updates",
+  "difficulty": "hard",
+  "category": "performance",
+  "language": "js",
+  "hints": [
+    "Apply the change to local state immediately before the API call resolves",
+    "Save the previous state so you can rollback if the server request fails",
+    "Use a try/catch around the async call and restore previous state in the catch block"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

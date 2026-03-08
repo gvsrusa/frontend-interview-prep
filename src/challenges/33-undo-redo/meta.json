@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Undo/Redo",
+  "difficulty": "medium",
+  "category": "state-management",
+  "language": "ts",
+  "hints": [
+    "Maintain two stacks: past (for undo) and future (for redo)",
+    "When performing a new action, push current state to past and clear future",
+    "Undo pops from past and pushes current to future; redo does the opposite"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

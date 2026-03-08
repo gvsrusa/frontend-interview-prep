@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "useKeyPress Hook",
+  "difficulty": "medium",
+  "category": "hooks",
+  "language": "ts",
+  "hints": [
+    "Listen for 'keydown' and 'keyup' events on the window or document",
+    "Compare event.key to the target key string",
+    "Use useState to track the pressed state and clean up listeners on unmount"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

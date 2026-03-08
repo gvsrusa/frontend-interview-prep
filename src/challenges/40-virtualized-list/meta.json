@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Virtualized List",
+  "difficulty": "hard",
+  "category": "performance",
+  "language": "js",
+  "hints": [
+    "Only render items visible in the viewport plus a small buffer above and below",
+    "Calculate which items are visible based on scroll position, item height, and container height",
+    "Use absolute positioning or top padding to maintain correct scroll height"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Error Boundary",
+  "difficulty": "medium",
+  "category": "state-management",
+  "language": "js",
+  "hints": [
+    "Error boundaries must be class components — hooks cannot catch render errors",
+    "Implement static getDerivedStateFromError to update state on error",
+    "componentDidCatch receives the error and errorInfo for logging"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

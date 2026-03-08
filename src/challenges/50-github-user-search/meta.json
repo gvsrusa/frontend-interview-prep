@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "GitHub User Search",
+  "difficulty": "medium",
+  "category": "api-integration",
+  "language": "js",
+  "hints": [
+    "Create mock user data with avatar, name, bio, and a repos array for each user",
+    "Filter mock users by name/username on search and display matching user cards",
+    "Show repos in an expandable section when a user card is clicked"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

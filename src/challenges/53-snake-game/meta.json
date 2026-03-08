@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Snake Game",
+  "difficulty": "hard",
+  "category": "games",
+  "language": "ts",
+  "hints": [
+    "Represent the snake as an array of {x, y} segments and move by adding a new head and removing the tail",
+    "Use useEffect with setInterval for the game loop and a ref for the current direction to avoid stale closures",
+    "Detect collisions by checking if the new head is out of bounds or overlaps any existing segment"
+  ],
+  "timeLimit": 45,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}

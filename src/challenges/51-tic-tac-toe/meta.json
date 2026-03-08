@@ -1,0 +1,17 @@
+{
+  "type": "react",
+  "title": "Tic Tac Toe",
+  "difficulty": "medium",
+  "category": "games",
+  "language": "ts",
+  "hints": [
+    "Represent the board as an array of 9 elements (null, 'X', or 'O') in state",
+    "Check all 8 winning combinations (3 rows, 3 columns, 2 diagonals) after each move",
+    "Store move history as an array of board snapshots to enable time travel"
+  ],
+  "timeLimit": 30,
+  "languages": [
+    "ts",
+    "js"
+  ]
+}
